@@ -1,5 +1,5 @@
 # Minesweeper
-Minesweeper video game
+Minesweeper Video Game
 
 https://user-images.githubusercontent.com/95982168/210435763-41371848-175e-4609-afcd-3f3a3d804d84.mp4
 
