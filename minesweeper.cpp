@@ -85,6 +85,13 @@ public:
 			cout << "Error: Improper number of mines: Ending program." << endl;
 		}
 	}
+
+	// Destructor
+	~Minesweeper_Game() {
+		// Make sure to delete all dynamically allocated
+		// tiles in board[]
+		for (size_t i = 0; i < total_number_of_tiles; ++i) delete board[i];
+	}
 	
 	// EFFECTS: Runs game of Minesweeper
 	void run_game(void) {
