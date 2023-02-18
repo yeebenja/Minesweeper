@@ -12,3 +12,5 @@ When the player has revealed all tiles that don't contain mines, the user is not
 ![minesweeper_demo_lose](https://user-images.githubusercontent.com/95982168/210471701-74249bc0-bffb-40b7-8aed-c7be61af3f87.gif)
 
 When the player choses a tile that contains a mine, the user is notified that they lost the game. The whole board is then revealed to the user.
+
+⭐Aside: After taking my Data Structures and Algorithms course, I've realized that my implementation for this tool is highly inefficient. I should try to redo this project some other time. 😁
